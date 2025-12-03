@@ -84,11 +84,7 @@ ${context.toLowerCase().includes('casual') ?
 Additional items to consider:
 • A quality belt that matches your shoe color
 • A watch or minimal jewelry
-• A complementary jacket or cardigan for layering
-
----
-This is a demo recommendation. Add your Gemini API key to get personalized AI-powered fashion advice!
-Get your free API key at: https://aistudio.google.com/app/apikey`;
+• A complementary jacket or cardigan for layering`;
 
     return {
         selectedItems,
