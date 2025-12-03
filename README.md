@@ -223,7 +223,3 @@ CVProject/
 - Uses Gemini 2.5 Flash for natural language recommendations
 - Considers clothing attributes and user context
 - Provides style assessments and practical outfit combinations
-
-## Acknowledgments
-
-- Google Gemini API for AI capabilities
