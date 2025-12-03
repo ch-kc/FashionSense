@@ -24,11 +24,7 @@ const upload = multer({
     limits: { fileSize: 10 * 1024 * 1024 } // 10MB limit
 });
 
-// Log API key status on startup
-console.log('Checking API Key...');
-console.log('API Key exists:', !!process.env.GEMINI_API_KEY);
-console.log('API Key length:', process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.length : 0);
-console.log('First 10 chars:', process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.substring(0, 10) + '...' : 'N/A');
+console.log('API Key:', process.env.GEMINI_API_KEY ? 'configured' : 'not set');
 
 // API Routes
 
